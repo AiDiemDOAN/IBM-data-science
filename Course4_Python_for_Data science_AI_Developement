@@ -1,0 +1,18 @@
+#1. Tuples
+Tuple is an ordered sequence and is written as comma-separated elements within parentheses
+In Python, we have string (str) ("disco"), integer (int) (10), float (float) (10.1)
+In Tuples we have: Tuple1=("disco", 10, 10.1)
+Type(Tuple1) = Tuple
+Tuple[0]=Tuple[-3]="disco"
+Tuple[1]=Tuple[-2]=10
+Tuple[2]=Tuple[-1]=10.1
+Tuple2=Tuple1+("hard rock", 10) ==> Tuple2 = ("disco", 10,10.1, "hard rock", 10)
+Tuple2[0:3]:("disco",10,10.1)
+Tuple2[3:5]:("hard rock",10)
+Len(Tuple2): 5
+Tuple is immutable (unchangeable)
+Ratings =(10,9,6,5,10,8,9,6,2)
+RatingsSorted =Sorted(Ratings) ==> [2,5,6,6,8,9,9,10,10]
+Nesting: A tuple can contain other tuples and other complex data types
+NT=(1,2,("pop","rock"),(3,4),("disco",(1,2)))
+NT[2]:("pop","rock")[1]="rock" ==>NT[2][1]="rock"
