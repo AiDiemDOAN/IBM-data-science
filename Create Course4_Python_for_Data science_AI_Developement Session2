@@ -1,0 +1,17 @@
+### List
+## List is an ordered sequence, represented with square brackets, mutable
+L=["Michael Jackson", 10.1, 1982]
+L.extend(["pop",10]) ==> L=["Michael Jackson", 10.1,1982,"pop",10]
+L.append(["pop",10]) ==> L=["Michael Jackson",10.1,1982,["pop",10]]
+'''
+
+A=["disco",10,1.2] 
+A[0]="hard rock" ==> A=["hard rock",10,1.2]
+Del(A[0]) ==> A=[10,1.2]
+'''
+
+## Convert string to List
+"hard rock".split() ==> ["hard", "rock"]
+B=A ==> B =["hard rock', 10,1.2]
+A[0]="banana" ==> A & B will change correspondently ==> B=A=["banana",10,1.2]
+To clone A. B=A[:] if A[0]="banana" ==> B[0]="hard rock" B will not change when A changes
